@@ -19,6 +19,8 @@ Codeception commands
 
 `$ ./vendor/bin/codecept run unit` - run unit tests
 
+`$ ./vendor/bin/codecept run unit DemoTest` - run test by name
+
 Useful links
 ------------
 
