@@ -1,6 +1,7 @@
 {
     "name": "vintage/codeception-demo",
     "description": "This is demo project for Codeception",
+    "keywords": ["yii2", "codeception", "unit", "testing", "demo"],
     "type": "project",
     "license": "BSD-3-Clause",
     "authors": [

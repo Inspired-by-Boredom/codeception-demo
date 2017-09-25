@@ -1,7 +1,8 @@
 Demo project for Codeception
 ============================
 
-This is demo project for examples of unit testing with [Codeception](http://codeception.com/) full-stack framework.
+This is demo project for examples of unit testing with
+[Codeception](http://codeception.com/) full-stack framework and [Yii2](http://yiiframework.com).
 
 Install Codeception to project
 ------------------------------
