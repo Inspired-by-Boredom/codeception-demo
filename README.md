@@ -25,3 +25,9 @@ Useful links
 ------------
 
 [Assert methods](http://codeception.com/docs/modules/Asserts)
+
+Licence
+-------
+This project is released under the terms of the BSD-3-Clause [license](LICENSE).
+
+Copyright (c) 2017, [Vintage Web Production](https://vintage.com.ua/)
