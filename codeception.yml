@@ -1,10 +1,29 @@
+actor: Tester
 paths:
-    tests: tests
-    output: tests/_output
-    data: tests/_data
-    support: tests/_support
-    envs: tests/_envs
-actor_suffix: Tester
+    tests: tests            # path to folder with tests
+    log: tests/_output      # path to folder for log files
+    data: tests/_data       # path to folder with data files
+    support: tests/_support # path to folder with files for test-cases
+settings:
+    bootstrap: _bootstrap.php # path to bootstrap file
+    colors: true              # colors in console
+    memory_limit: 1024M       # limit of memory for tests
 extensions:
     enabled:
+        # extension writes info about failed tests
         - Codeception\Extension\RunFailed
+modules:
+    config:
+        # Module for support of Yii2
+        Yii2:
+          cleanup: false
+          configFile: 'tests/_config/app.php'
+        # Module for database
+        Db:
+          dsn: 'sqlite:tests/_output/test.db'
+          user: ''
+          password: ''
+          dump: 'tests/_data/dump.sql'
+          cleanup: true,
+          populate: true,
+          reconnect: false

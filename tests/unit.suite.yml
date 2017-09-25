@@ -1,9 +1,8 @@
-# Codeception Test Suite Configuration
-#
-# Suite for unit or integration tests.
-
-actor: UnitTester
+class_name: UnitTester # class contains included modules
+bootstrap: false       # turn off local bootstrap file for unit tests
 modules:
+    # enable global modules for unit tests
     enabled:
-        - Asserts
-        - \Helper\Unit
+        - Asserts # Module with assert methods from PHPUnit
+        - Db      # Module for database
+        - Yii2    # Module for support of Yii2

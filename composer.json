@@ -11,7 +11,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
     "require-dev": {
         "codeception/codeception": "^2.3"
     },
