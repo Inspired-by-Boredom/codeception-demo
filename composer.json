@@ -1,0 +1,23 @@
+{
+    "name": "vintage/codeception-demo",
+    "description": "This is demo project for Codeception",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vladimir Kuprienko",
+            "email": "vldmr.kuprienko@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
