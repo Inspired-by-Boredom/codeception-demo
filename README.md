@@ -1,5 +1,10 @@
-Demo project for Codeception
-============================
+<p align="center">
+    <a href="http://codeception.com/" target="_blank">
+        <img src="https://avatars3.githubusercontent.com/u/1288753" height="100px">
+    </a>
+    <h1 align="center">Demo project for Codeception</h1>
+    <br>
+</p>
 
 This is demo project for examples of unit testing with
 [Codeception](http://codeception.com/) full-stack framework and [Yii2](http://yiiframework.com).
