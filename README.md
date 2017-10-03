@@ -9,13 +9,12 @@
 This is demo project for examples of unit testing with
 [Codeception](http://codeception.com/) full-stack framework and [Yii2](http://yiiframework.com).
 
-Install Codeception to project
+Install Codeception into project
 ------------------------------
 `$ composer require --dev "codeception/codeception"`
 
 Codeception commands
 --------------------
-
 `$ ./vendor/bin/codecept bootstrap` - creates files for tests
 
 `$ ./vendor/bin/codecept generate:test unit DemoTest` - generates unit test-case with name `DemoTest`
@@ -28,8 +27,15 @@ Codeception commands
 
 Useful links
 ------------
+* [Testing in Yii2](http://www.yiiframework.com/doc-2.0/guide-test-overview.html)
+* [Codeception Unit tests](http://codeception.com/docs/05-UnitTests)
+* [Codeception module Yii2](http://codeception.com/docs/modules/Yii2)
+* [Codeception module Db](http://codeception.com/docs/modules/Db)
+* [Assert methods](http://codeception.com/docs/modules/Asserts)
 
-[Assert methods](http://codeception.com/docs/modules/Asserts)
+Presentation
+------------
+[http://slides.com/greeflas/codeception](http://slides.com/greeflas/codeception)
 
 Licence
 -------
